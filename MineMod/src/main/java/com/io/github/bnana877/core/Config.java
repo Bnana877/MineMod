@@ -1,4 +1,4 @@
-package com.io.github.bnana877;
+package com.io.github.bnana877.core;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.Item;
@@ -11,6 +11,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
+
+import com.io.github.bnana877.GerubanaIndustry;
 
 // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
 // Demonstrates how to use Forge's config APIs
@@ -35,7 +37,7 @@ public class Config {
                         .comment("A list of items to log on common setup.")
                         .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), Config::validateItemName);
 
-        static final ForgeConfigSpec SPEC = BUILDER.build();
+        public static final ForgeConfigSpec SPEC = BUILDER.build();
 
         public static boolean logDirtBlock;
         public static int magicNumber;

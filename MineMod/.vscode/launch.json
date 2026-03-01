@@ -6,7 +6,7 @@
             "name": "Attach to Minecraft (localhost:5005)",
             "request": "attach",
             "hostName": "localhost",
-            "port": 5005,
+            "port": 54462,
         }
     ],
 }

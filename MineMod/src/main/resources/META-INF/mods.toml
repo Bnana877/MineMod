@@ -21,14 +21,14 @@ authors = "Gerubana" #optional
 
 description = '''Gerubana Industries is a Minecraft mod that adds new machines, tools, and resources to enhance your gameplay experience. Explore new technologies and automate your world with Gerubana Industries!'''
 
-[[dependencies.examplemod]] #recommended
+[[dependencies.gerubana_industries]] #recommended
 modId = "forge"
 mandatory = true
 versionRange = "[61,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]] #recommended
+[[dependencies.gerubana_industries]] #recommended
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.21.11,1.22,)"
